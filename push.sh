@@ -1,5 +1,6 @@
 #!/bin/sh
-echo "来了宝贝"
+dirname $0
+cd `dirname $0`
 git init
 git add .
 git status 
