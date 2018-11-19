@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="sirius" />
         <module name="springboot-learn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="sirius" target="1.8" />
       <module name="springboot-learn" target="1.5" />
     </bytecodeTargetLevel>
   </component>
