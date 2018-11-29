@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sirius/pom.xml" />
+        <option value="$PROJECT_DIR$/canopus/pom.xml" />
+        <option value="$PROJECT_DIR$/server_vega/pom.xml" />
+        <option value="$PROJECT_DIR$/arcturus/pom.xml" />
       </list>
     </option>
   </component>

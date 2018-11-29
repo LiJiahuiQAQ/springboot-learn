@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/arcturus/arcturus.iml" filepath="$PROJECT_DIR$/arcturus/arcturus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canopus/canopus.iml" filepath="$PROJECT_DIR$/canopus/canopus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/server_vega/server_vega.iml" filepath="$PROJECT_DIR$/server_vega/server_vega.iml" />
       <module fileurl="file://$PROJECT_DIR$/sirius/sirius.iml" filepath="$PROJECT_DIR$/sirius/sirius.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-learn.iml" filepath="$PROJECT_DIR$/springboot-learn.iml" />
     </modules>

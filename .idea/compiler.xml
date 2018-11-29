@@ -6,13 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="arcturus" />
+        <module name="canopus" />
+        <module name="server_vega" />
         <module name="sirius" />
         <module name="springboot-learn" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="arcturus" target="1.8" />
+      <module name="canopus" target="1.8" />
+      <module name="server_vega" target="1.8" />
       <module name="sirius" target="1.8" />
       <module name="springboot-learn" target="1.5" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="arcturus" options="-parameters" />
+      <module name="canopus" options="-parameters" />
+      <module name="server_vega" options="-parameters" />
+      <module name="sirius" options="-parameters" />
+    </option>
   </component>
 </project>
